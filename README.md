@@ -101,6 +101,17 @@ Also untested: several real sessions in one folder (only synthetic ones so far).
 the latest 10,000 characters without being asked. ClaUrd reaches further back, when
 asked.
 
+If you want more than a grep, others have gone further down the same road:
+
+- [fable](https://github.com/grooverLab/fable) seals every session into its own
+  SQLite vault before compaction and cleanup, and searches it by keyword and by
+  meaning.
+- [lore](https://github.com/hyunjae-labs/lore) indexes sessions across all projects
+  for hybrid vector and keyword search.
+
+ClaUrd stays small on purpose: no store, no server, nothing running. It reads what
+Claude Code already wrote, and it also looks in the commands.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
@@ -209,6 +220,16 @@ Windows 11、Claude Code 2.1.289、Python 3.12、Git Bash。ほかはまだで�
 [cortex-praefrontalis](https://github.com/fmtowns3/cortex-praefrontalis) は、直前の
 1 万字を、頼まれなくても渡します。ClaUrd は、頼まれたときに、もっと前まで手を
 伸ばします。
+
+grep より先が欲しい方へ。同じ道を、もっと遠くまで進んだ道具があります。
+
+- [fable](https://github.com/grooverLab/fable) は、圧縮と掃除の前に全セッションを
+  自前の SQLite の保管庫へ封じ、キーワードと意味の両方で検索します。
+- [lore](https://github.com/hyunjae-labs/lore) は、全プロジェクトのセッションを索引し、
+  ベクトルとキーワードを合わせて検索します。
+
+ClaUrd は、わざと小さいままにしています。保管庫なし、サーバーなし、常駐なし。
+Claude Code がすでに書いたものを読むだけで、コマンドの中も探します。
 
 ## ライセンス
 
