@@ -109,7 +109,7 @@ MIT. See [LICENSE](LICENSE).
 
 # 日本語
 
-Claude Code が自分の過去を grep するための skill です。ウルズ（Urd）は、過ぎ去ったものを
+Claude Code が自分の過去を grep するための skill です。ウルド（Urd）は、過ぎ去ったものを
 司る北欧のノルン。その泉を、Claude に。
 
 圧縮のあと、Claude は自己解凍型のアーカイブを作った「こと」は覚えていても、そのときの
