@@ -1,0 +1,12 @@
+{
+  "name": "claurd",
+  "version": "0.1.0",
+  "description": "Lets Claude grep its own past: searches the session transcript for what was said and what was run, and returns only the matching turns with line numbers. No index, no LLM, no extra files.",
+  "author": {
+    "name": "Artificial Idiot",
+    "url": "https://github.com/fmtowns3"
+  },
+  "repository": "https://github.com/fmtowns3/ClaUrd",
+  "license": "MIT",
+  "keywords": ["compaction", "context", "memory", "transcript", "recall", "skill"]
+}

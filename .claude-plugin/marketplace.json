@@ -1,0 +1,16 @@
+{
+  "name": "claurd",
+  "owner": {
+    "name": "fmtowns3"
+  },
+  "metadata": {
+    "description": "Long-past recall for Claude Code: grep the transcript, get the turns back verbatim."
+  },
+  "plugins": [
+    {
+      "name": "claurd",
+      "source": "./",
+      "description": "Lets Claude grep its own past: what was said and what was run, with transcript line numbers."
+    }
+  ]
+}
