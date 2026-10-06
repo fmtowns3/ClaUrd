@@ -103,9 +103,9 @@ asked.
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
 
----
+* * *
 
 # 日本語
 
@@ -212,4 +212,4 @@ Windows 11、Claude Code 2.1.289、Python 3.12、Git Bash。ほかはまだで�
 
 ## ライセンス
 
-MIT
+MIT です。[LICENSE](LICENSE) を参照してください。
